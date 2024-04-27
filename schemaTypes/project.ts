@@ -14,6 +14,9 @@ export default defineType({
       name: 'date',
       title: 'Date',
       type: 'date',
+      options: {
+        dateFormat: 'YYYY',
+      }
     }),
     defineField({
       name: 'cover',
