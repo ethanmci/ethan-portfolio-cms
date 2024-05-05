@@ -19,6 +19,15 @@ export default defineType({
       }
     }),
     defineField({
+      title: 'Tags',
+      name: 'tags',
+      type: 'array',
+      of: [{type: 'string'}],
+      options: {
+        layout: 'tags'
+      }
+    }),
+    defineField({
       name: 'cover',
       title: 'Cover',
       type: 'image',
