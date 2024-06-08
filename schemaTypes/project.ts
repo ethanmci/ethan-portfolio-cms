@@ -19,12 +19,12 @@ export default defineType({
       }
     }),
     defineField({
-      title: 'Tags',
-      name: 'tags',
-      type: 'array',
-      of: [{type: 'string'}],
+      name: "tags",
+      title: "Tags",
+      type: "array",
+      of: [{type: "string"}],
       options: {
-        layout: 'tags'
+        layout: "tags"
       }
     }),
     defineField({
