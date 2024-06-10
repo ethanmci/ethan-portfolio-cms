@@ -19,6 +19,11 @@ export default defineType({
       }
     }),
     defineField({
+      name: 'slug',
+      title: 'Slug',
+      type: 'slug',
+    }),
+    defineField({
       name: "tags",
       title: "Tags",
       type: "array",
